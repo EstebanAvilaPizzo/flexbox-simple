@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+footer {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.contenedor {
+    margin: 20px;
+}
+
+.caja {
+    padding: 15px;
+    border: 2px solid darkblue;
+    text-align: center;
+    width: 250px;
+    color: white;
+}
+
+#caja1 {
+    background-color: #4f6779;
+}
+
+#caja2 {
+    background-color: #6b7f8e;
+}
+
+#caja3 {
+    background-color: #9ba8b2;
+}
+
+#caja4 {
+    background-color: #abb6be;
+}
+
+#caja5 {
+    background-color: #b7c2ca;
+}
+
+#caja6 {
+    background-color: #abb6be;
+}
+
+#caja7 {
+    background-color: #b7c2ca;
+}
+
+h2 {
+    margin: 15px 0px;
+}
+
+.contenedor-padre {
+    display: flex;
+    background-color: lightblue;
+}
+
+.contenedor-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contenedor-columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-columna-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contenedor-wrap {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-centrado {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-around {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor-evenly {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedor-between {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-vertical {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+}
